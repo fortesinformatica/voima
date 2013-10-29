@@ -4,7 +4,7 @@ class CreateVoimaFeatures < ActiveRecord::Migration
       t.string :action
       t.string :controller
       t.string :description
-      t.boolean :requires_company
+      t.boolean :requires_dependent, default: false
 
       t.timestamps
     end

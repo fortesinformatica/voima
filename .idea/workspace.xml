@@ -20,17 +20,32 @@
     <file path="/routes.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990288031" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/controllers/users_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990691885" ignored="false" />
     <file path="/helpers.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054491634" ignored="false" />
-    <file path="/users_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990529790" ignored="false" />
+    <file path="/users_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055438945" ignored="false" />
     <file path="/engine.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382987098599" ignored="false" />
     <file path="/voima.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382989954761" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/controllers/application_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054820974" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/models/user.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054820974" ignored="false" />
-    <file path="/authorization.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054017257" ignored="false" />
+    <file path="/authorization.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383069530366" ignored="false" />
     <file path="/company.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383052912315" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/models/autorizacao.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383053935265" ignored="false" />
     <file path="/autorizacao.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383053912891" ignored="false" />
-    <file path="/role.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054341507" ignored="false" />
+    <file path="/role.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383056687300" ignored="false" />
     <file path="$PROJECT_DIR$/../bookmaker/Gemfile" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055034011" ignored="false" />
+    <file path="/20131029135857_devise_create_users.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055236749" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/db/migrate/20131029135857_devise_create_users.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055248460" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/app/controllers/users_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055446076" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/app/views/users/show.html.erb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055502454" ignored="false" />
+    <file path="/show.html.erb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055502454" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/db/seeds.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383070465498" ignored="false" />
+    <file path="/seeds.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383069436044" ignored="false" />
+    <file path="/20131028174158_create_voima_features.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383067549533" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/db/migrate/20131029135925_create_voima_features.voima.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383067560557" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/db/schema.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383070465498" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/app/models/user.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383070465498" ignored="false" />
+    <file path="/user.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383068517483" ignored="false" />
+    <file path="/20131028174727_create_voima_authorizations.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383067658882" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/config/routes.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383070465498" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/config/application.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383070465498" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +65,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/voima/application_controller.rb">
+      <file leaf-file-name="authorization.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/voima/authorization.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="54" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+            <state line="17" column="16" selection-start="405" selection-end="405" vertical-scroll-proportion="0.30712008">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/voima/controllers/helpers.rb">
+      <file leaf-file-name="role.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/voima/role.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2494759">
+            <state line="6" column="28" selection-start="131" selection-end="145" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="features_role.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/voima/features_role.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="44" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/voima/feature.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="8" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131028174418_create_voima_features_roles.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131028174418_create_voima_features_roles.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="86" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,7 +121,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/db/migrate/20131028174158_create_voima_features.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/voima/application_controller.rb" />
@@ -87,15 +128,18 @@
         <option value="$PROJECT_DIR$/lib/voima/engine.rb" />
         <option value="$PROJECT_DIR$/lib/voima.rb" />
         <option value="$PROJECT_DIR$/app/models/voima/company.rb" />
-        <option value="$PROJECT_DIR$/app/models/voima/authorization.rb" />
-        <option value="$PROJECT_DIR$/app/models/voima/role.rb" />
         <option value="$PROJECT_DIR$/lib/voima/controllers/helpers.rb" />
+        <option value="$PROJECT_DIR$/app/models/voima/features_roles.rb" />
+        <option value="$PROJECT_DIR$/app/models/voima/role.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131028174158_create_voima_features.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131028174727_create_voima_authorizations.rb" />
+        <option value="$PROJECT_DIR$/app/models/voima/authorization.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="25" />
-    <option name="y" value="64" />
+    <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1054" />
   </component>
@@ -125,8 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,16 +333,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.nodejs" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmaker" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: voima">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -548,27 +592,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="64" width="1920" height="1054" extended-state="0" />
-    <editor active="true" />
+    <frame x="25" y="22" width="1920" height="1054" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6700611" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6700611" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -632,41 +676,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="10" selection-end="10" vertical-scroll-proportion="0.053968254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131028174158_create_voima_features.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="68" selection-end="68" vertical-scroll-proportion="0.16190477">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131028173600_create_voima_organizations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/voima/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="54" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/voima/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="4" selection-start="78" selection-end="78" vertical-scroll-proportion="0.08095238">
@@ -681,35 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/voima/feature.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/voima/organization.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/voima/authorization.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.18065888">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/voima/role.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="145" selection-end="145" vertical-scroll-proportion="0.10691824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131028173713_create_voima_companies.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -723,9 +704,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/voima/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="54" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="131" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/features_role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/feature.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131028173600_create_voima_organizations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131028174418_create_voima_features_roles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="86" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131028174727_create_voima_authorizations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="146" selection-end="146" vertical-scroll-proportion="0.054779805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/voima/controllers/helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2494759">
+        <state line="14" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2556391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131028174158_create_voima_features.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="200" selection-end="218" vertical-scroll-proportion="0.10691824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131028174314_create_voima_roles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/authorization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="405" selection-end="405" vertical-scroll-proportion="0.30712008">
           <folding />
         </state>
       </provider>

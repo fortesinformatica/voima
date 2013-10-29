@@ -1,6 +1,6 @@
 module Voima
   class Authorization < ActiveRecord::Base
-    belongs_to :company
+
     belongs_to :role
     belongs_to :user
 
@@ -15,13 +15,12 @@ module Voima
       resource = controller.classify.constantize
       @controller = controller
       @action = action
-      set_company(resource, params) unless resource.attribute_method? :organization_id
-      cached_actions.include?([controller, action, company_id]) || cached_actions.include?([controller, action, nil])
+      set_dependent(resource, params)
+      cached_actions.include?([controller, action, dependent_id]) || cached_actions.include?([controller, action, nil])
     end
 
-    def set_company resource, params
-      id_from_company = resource.get_company_id(params)
-      self.company = Voima::Company.find( id_from_company ) if id_from_company.present?
+    def set_dependent resource, params
+      self.dependent_id = resource.get_dependent_id(params) if resource.methods.include? :get_dependent_id
     end
 
     private
@@ -45,10 +44,10 @@ module Voima
     def allowed_actions
       auths = Voima::Authorization.
                 joins(:role => :features).
-                where(:roles => {:organization_id => user.last_organization_logged}, :authorizations => {:user_id => user.id}).
+                where(:voima_roles => {:organization_id => user.last_organization_logged}, :voima_authorizations => {:user_id => user.id}).
                 includes(:role => :features)
-      auths_hash = auths.map{|auth| {:features => auth.role.features, :company_id => auth.company_id}}
-      auths_hash.map{|auth| auth[:features].map{|feature| [feature[:controller], feature[:action], (feature[:requires_company] ? auth[:company_id] : nil) ]}}.flatten(1)
+      auths_hash = auths.map{|auth| {:features => auth.role.features, :dependent_id => auth.dependent_id}}
+      auths_hash.map{|auth| auth[:features].map{|feature| [feature[:controller], feature[:action], (feature[:requires_dependent] ? auth[:dependent_id] : nil) ]}}.flatten(1)
     end
 
   end
