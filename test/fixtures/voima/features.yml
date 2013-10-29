@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  action,: MyString
+  controller,: MyString
+  description,: MyString
+  requires_company: false
+
+two:
+  action,: MyString
+  controller,: MyString
+  description,: MyString
+  requires_company: false
