@@ -15,12 +15,13 @@ module Voima
       resource = controller.classify.constantize
       @controller = controller
       @action = action
-      unless resource.attribute_method? :organizacao_id
-        id_da_empresa = resource.get_empresa_id(params)
-        self.empresa = Empresa.find( id_da_empresa ) if id_da_empresa.present?
-      end
-      #se tem permissão exclusiva para uma empresa ou se tem para toda a organização
-      cached_actions.include?([controller, action, empresa_id]) || cached_actions.include?([controller, action, nil])
+      set_company(resource, params) unless resource.attribute_method? :organization_id
+      cached_actions.include?([controller, action, company_id]) || cached_actions.include?([controller, action, nil])
+    end
+
+    def set_company resource, params
+      id_from_company = resource.get_company_id(params)
+      self.company = Voima::Company.find( id_from_company ) if id_from_company.present?
     end
 
     private
@@ -42,9 +43,12 @@ module Voima
     end
 
     def allowed_actions
-      auths = Autorizacao.joins(:role => :features).where(:roles => {:organizacao_id => user.ultima_organizacao_logada_id}, :autorizacoes => {:user_id => user.id}).includes(:role => :features)
-      auths_hash = auths.map{|auth| {:features => auth.role.features, :empresa_id => auth.empresa_id}}
-      auths_hash.map{|auth| auth[:features].map{|feature| [feature[:controller], feature[:action], (feature[:exige_empresa] ? auth[:empresa_id] : nil) ]}}.flatten(1)
+      auths = Voima::Authorization.
+                joins(:role => :features).
+                where(:roles => {:organization_id => user.last_organization_logged}, :authorizations => {:user_id => user.id}).
+                includes(:role => :features)
+      auths_hash = auths.map{|auth| {:features => auth.role.features, :company_id => auth.company_id}}
+      auths_hash.map{|auth| auth[:features].map{|feature| [feature[:controller], feature[:action], (feature[:requires_company] ? auth[:company_id] : nil) ]}}.flatten(1)
     end
 
   end

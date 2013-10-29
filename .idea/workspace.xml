@@ -9,7 +9,7 @@
     <file path="/Dummy.txt" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382981231033" ignored="false" />
     <file path="/*.regexp" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383048994180" ignored="false" />
     <file path="/application_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382991584274" ignored="false" />
-    <file path="$PROJECT_DIR$/../atlas/Gemfile" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382985117762" ignored="false" />
+    <file path="$PROJECT_DIR$/../atlas/Gemfile" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054820974" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/models/tarefa.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382983320896" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/assets/javascripts/app/view/dashboard/ChamadosGrid.js" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382983578649" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/assets/javascripts/app/view/tarefas/dashboard/PesquisaAvancada.js" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382984147286" ignored="false" />
@@ -19,13 +19,18 @@
     <file path="$PROJECT_DIR$/../atlas/config/routes.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990691885" ignored="false" />
     <file path="/routes.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990288031" ignored="false" />
     <file path="$PROJECT_DIR$/../atlas/app/controllers/users_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990691885" ignored="false" />
-    <file path="/helpers.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383050188264" ignored="false" />
+    <file path="/helpers.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054491634" ignored="false" />
     <file path="/users_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382990529790" ignored="false" />
     <file path="/engine.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382987098599" ignored="false" />
     <file path="/voima.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1382989954761" ignored="false" />
-    <file path="$PROJECT_DIR$/../atlas/app/controllers/application_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383049428417" ignored="false" />
-    <file path="$PROJECT_DIR$/../atlas/app/models/user.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383048791834" ignored="false" />
-    <file path="/authorization.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383050160988" ignored="false" />
+    <file path="$PROJECT_DIR$/../atlas/app/controllers/application_controller.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054820974" ignored="false" />
+    <file path="$PROJECT_DIR$/../atlas/app/models/user.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054820974" ignored="false" />
+    <file path="/authorization.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054017257" ignored="false" />
+    <file path="/company.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383052912315" ignored="false" />
+    <file path="$PROJECT_DIR$/../atlas/app/models/autorizacao.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383053935265" ignored="false" />
+    <file path="/autorizacao.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383053912891" ignored="false" />
+    <file path="/role.rb" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383054341507" ignored="false" />
+    <file path="$PROJECT_DIR$/../bookmaker/Gemfile" changelist="0d9a2413-9632-4fe4-a373-276ecc278079" time="1383055034011" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="helpers.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/voima/controllers/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="74" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authorization.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/voima/authorization.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="48" selection-start="460" selection-end="464" vertical-scroll-proportion="0.30712008">
+            <state line="14" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2494759">
               <folding />
             </state>
           </provider>
@@ -90,13 +86,16 @@
         <option value="$PROJECT_DIR$/app/controllers/concerns/helpers.rb" />
         <option value="$PROJECT_DIR$/lib/voima/engine.rb" />
         <option value="$PROJECT_DIR$/lib/voima.rb" />
+        <option value="$PROJECT_DIR$/app/models/voima/company.rb" />
         <option value="$PROJECT_DIR$/app/models/voima/authorization.rb" />
+        <option value="$PROJECT_DIR$/app/models/voima/role.rb" />
         <option value="$PROJECT_DIR$/lib/voima/controllers/helpers.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="25" />
+    <option name="y" value="64" />
     <option name="width" value="1920" />
     <option name="height" value="1054" />
   </component>
@@ -227,6 +226,10 @@
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -295,6 +298,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmaker" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -544,7 +548,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="0" />
+    <frame x="25" y="64" width="1920" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -635,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131028173713_create_voima_companies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131028174158_create_voima_features.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
@@ -684,16 +681,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/voima/controllers/helpers.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/voima/feature.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/organization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/voima/authorization.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="460" selection-end="464" vertical-scroll-proportion="0.30712008">
+        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.18065888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="145" selection-end="145" vertical-scroll-proportion="0.10691824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131028173713_create_voima_companies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/voima/company.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="84" selection-end="84" vertical-scroll-proportion="0.05345912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/voima/controllers/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2494759">
           <folding />
         </state>
       </provider>
