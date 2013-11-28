@@ -16,8 +16,8 @@ module Voima
       end
 
       def authorize_user!
-        if !is_a?(DeviseController) && cannot?(self.controller_name, self.action_name, params)
-          render_error_with "Unauthorized!", :unauthorized
+        if current_user.present? && !is_a?(DeviseController) && cannot?(self.controller_name, self.action_name, params)
+          render_error_with "Sem autorização", :unauthorized
         end
       end
 
@@ -32,7 +32,7 @@ module Voima
       def render_error_with message, status
         respond_to do |format|
           format.html {
-            render "Error", :locals => { :message => message }, :status => status
+            render "Error", :layout => "error", :locals => { :message => message }, :status => status
           }
           format.json {
             render :json => {
