@@ -16,7 +16,7 @@ module Voima
       end
 
       def authorize_user!
-        if current_user.present? && !is_a?(DeviseController) && cannot?(self.controller_name, self.action_name, params)
+        if current_user.present? && !is_a?(DeviseController) && cannot?(params[:controller], self.action_name, params)
           render_error_with "Sem autorização", :unauthorized
         end
       end
