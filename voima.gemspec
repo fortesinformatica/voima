@@ -7,11 +7,11 @@ require "voima/version"
 Gem::Specification.new do |s|
   s.name        = "voima"
   s.version     = Voima::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Voima."
-  s.description = "TODO: Description of Voima."
+  s.authors     = ["Equipe NEL"]
+  s.email       = ["desenvolvimento.nel@grupofortes.com.br"]
+  s.homepage    = ""
+  s.summary     = "Summary of Voima."
+  s.description = "Description of Voima."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
