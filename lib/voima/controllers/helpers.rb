@@ -8,7 +8,7 @@ module Voima
         append_before_filter :authorize_user!
 
         before_filter only: :destroy do |controller|
-          if controller.is_a? Devise::SessionsController
+          if controller.is_a?(Devise::SessionsController) && current_user.present?
             Rails.cache.delete Authorization.new(:user_id => current_user.id).send(:key_cache)
           end
         end
